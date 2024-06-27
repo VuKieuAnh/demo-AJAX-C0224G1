@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <!--    de chay dc AJAX chung ta phai co jquery-->
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+</head>
+<body>
+<h1>Hello, world!</h1>
+<input id="firstName" placeholder="firstName">
+<input id="lastName" placeholder="lastName">
+<input id="province" placeholder="province">
+<button onclick="createCustomer()">Tao moi</button>
+<table border="1px">
+    <tr>
+        <td>FN</td>
+        <td>LN</td>
+        <td>Province</td>
+        <td>Action</td>
+    </tr>
+    <tbody id="customers">
+
+    <tr>
+        <td>Minh</td>
+        <td>Hieu</td>
+        <td>QN</td>
+        <td></td>
+    </tr>
+    </tbody>
+</table>
+<script src="customers.js"></script>
+</body>
+</html>
